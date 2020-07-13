@@ -6,3 +6,17 @@
 h1 {
     font-family: 'Fredoka One', cursive;
 }
+
+.title {
+    background-color: #9d8189;
+    margin: 10px;
+    height: 70px;
+    padding-top: 10px;
+    color: white;
+}
+
+.card ul li:hover {
+    transform: scale(1.1);
+    z-index: 100;
+    box-shadow: 0 5px 25px;
+}
